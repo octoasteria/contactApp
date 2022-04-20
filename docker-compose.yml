@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+
+  db:
+    image: postgres:14.2
+    container_name: db_contact_app
+    environment:
+      - POSTGRES_DB=contact_db
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=Drowssap!
+
+    ports:
+      - '5432:5432'

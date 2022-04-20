@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/contact_db
+    driver-class-name: org.postgresql.Driver
+    username: user
+    password: Drowssap!
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: validate
+server:
+  port: 8000
